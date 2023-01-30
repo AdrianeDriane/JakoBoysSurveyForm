@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8"/>
+        <title>JakoBoys Survey Form</title>
+        <link rel="stylesheet" href="styles.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+
+    <body class="filter">
+        <img class="icon" src="https://th.bing.com/th/id/R.a04f11fbdd7880dea5fd1e8d48354aba?rik=RGijuSZfz9XXwQ&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_411517.png&ehk=RJWX5tTHfb3N4DOCft92JkZD%2bPOQwUmUeUiWph%2bn93A%3d&risl=&pid=ImgRaw&r=0"/>
+        <h1 id="title">JakoBoys Survey Form</h1>
+        <p id="description"><em>Thank you for taking the time to help us improve the league</em></p>
+        <div class="div_form">
+            <main>
+                <form id="survey-form" method="post" action="https://www.youtube.com/watch?v=BBJa32lCaaY">
+                    <fieldset>
+                        <label id="name-label" for="name">
+                            Name
+                            <input id="name" type="text" name="name" placeholder="Enter your name" required></input>
+                        </label>
+                        <label id="email-label" for="email">
+                            Email
+                            <input id="email" type="email" name="email" placeholder="Enter your Email" required></input>
+                        </label>
+                        <label id="number-label" for="number">
+                            Age <label class="inline">(optional)</label>
+                        </label>
+                            <input id="number" type="number" name="number" placeholder="Age" min="13" max="120"></input>
+                        </label>
+                    </fieldset>
+
+                    <fieldset>
+                        <label for="dropdown">
+                            What team are you currently playing?
+                            <select id="dropdown" name="dropdown" required>
+                                <option value="">(select one)</option>
+                                <option value="1">Team A (Kokong Curry)</option>
+                                <option value="2">Team B (Pareng Joemar)</option>
+                                <option value="3">Team C (Alvin Gud Guy)</option>
+                                <option value="4">Team D (Sadam)</option>
+                                <option value="5">Team E (Benjie)</option>
+                            </select>
+                        </label>
+                    </fieldset>
+
+                    <fieldset>
+                        <label >Are you a team captain or a sponsor?</label>
+                        <label for="yes_captain">
+                            <input type="radio" id="yes_captain" name="is_vip" class="inline" value="1"></input>
+                            Yes, I am one of the team captains.
+                        </label>
+                        <label for="yes_sponsor">
+                            <input type="radio" id="yes_sponsor" name="is_vip" class="inline" value="2"></input>
+                            Yes, I am one of the sponsors.
+                        </label>
+                        <label for="yes_both">
+                            <input type="radio" id="yes_both" name="is_vip" class="inline" value="3"></input>
+                            Yes, I am both.
+                        </label>
+                    </fieldset>
+
+                    <fieldset>
+                        <label>What would you like to see improved? <label class="inline">(Check all that apply)</label></label>
+                        <label for="side_comp">
+                            <input id="side_comp" type="checkbox" name="imp_sugg" value="side_comp">
+                                More side competitions <label class="inline">(3PT Contests, All-Star Match, etc.)</label>
+                            </input>
+                        </label>
+                        <label for="comittee">
+                            <input id="comittee" type="checkbox" name="imp_sugg" value="comittee">
+                                Better comittee and referees
+                            </input>
+                        </label>
+                        <label for="playoff">
+                            <input id="playoff" type="checkbox" name="imp_sugg" value="playoff">
+                                Longer playoff layouts
+                            </input>
+                        </label>
+                        <label for="jerseys">
+                            <input id="jerseys" type="checkbox" name="imp_sugg" value="jerseys">
+                                New improved jerseys
+                            </input>
+                        </label>
+                        <label for="venue">
+                            <input id="venue" type="checkbox" name="imp_sugg" value="venue">
+                                Better venue
+                            </input>
+                        </label>
+                        <label for="in_game">
+                            <input id="in_game" type="checkbox" name="imp_sugg" value="in_game">
+                                In-game experience <label class="inline">(shotclocks or timer, free water, etc.)</label>
+                            </input>
+                        </label>
+                        
+                    </fieldset>
+                    
+                    <fieldset>
+                        <label for="suggestions">Provide any suggestions <label class="inline">(optional):</label>
+                            <textarea id="suggestions" name="suggestions" rows="10" cols="30" placeholder="Place your suggestions here."></textarea>
+                          </label>
+                    </fieldset>
+                    <input type="submit" value="Submit" id="submit"></input>
+                    
+                    <p class="footer">Visit <a href="https://www.youtube.com/watch?v=BBJa32lCaaY">here</a> for our Facebook page.</p>
+                </form>
+            </main>
+        </div>
+    </body>
+</html>

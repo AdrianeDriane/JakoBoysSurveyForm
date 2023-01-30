@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.div_form{
+    width: 80%;
+    background-color: rgba(0, 78, 104, 0.8);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    max-width: 700px;
+    border-radius: 10px;
+}
+
+body{
+    font-size: 135%;
+    font-family: 'Poppins', sans-serif;
+    background: url(https://www.pledgesports.org/wp-content/uploads/2018/02/basketball.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: rgb(173,216,230);
+}
+
+h1, p{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+h1{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+p{
+    margin-top: 0;
+}
+
+
+
+label{
+    display: block;
+    margin: 0.5rem 0;
+    color: azure;
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 80%;
+  }
+
+input,
+textarea,
+select {
+    margin-right: 20px;
+    width: 100%;
+    min-height: 2em;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+}
+
+input[type="checkbox"]{
+    min-height: 1em;
+    width: min-content;
+    margin-right: 20px;
+    transform: scale(1.5);
+}
+
+input[type="radio"]{
+    min-height: 1em;
+    width: min-content;
+    margin-right: 20px;
+    transform: scale(1.5);
+}
+
+input[type="submit"] {
+    display: block;
+    width: 10%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    min-width: 300px;
+  }
+
+input::placeholder, textarea::placeholder, select::placeholder{
+    font: 16px/3 'Poppins';
+}
+
+fieldset{
+    border: none;
+}
+
+.icon{
+    max-height: 100px;
+    max-width: 100px;
+    margin-left: 48%;
+    margin-right: 52%;
+    display: inline-block;
+    margin-bottom: none;
+    margin-top: 20px;
+}
+
+a {
+    color: white;
+  }
+  
+  a:visited {
+    color: white;
+  }
+  
+  a:hover {
+    color: black;
+  }
+  
+  a:active {
+    color: black;
+  }
+
+.footer{
+    font-size: smaller;
+}
